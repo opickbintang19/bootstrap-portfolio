@@ -47,7 +47,7 @@
             <a class="nav-link" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fw-bold text-primary" href="#pricing">Contact</a>
+            <a class="nav-link fw-bold text-primary" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -71,13 +71,13 @@
       <div class="row g-4 justify-content-center align-items-center">
         <!-- about me -->
         <div class="col-md-5 text-md-start px-4">
-          <h1 class="fw-bold">About Me</h1>
+          <h1 class="fw-bold"><i class="bi bi-person-circle"></i> About Me</h1>
           <p class="text-justify">My name is Husain Taufiqqurrahman, i am currently 21 years old and currently studying
             at Informatics
             Faculty of Computer Science, UPNV Jawa Timur.</p>
           <p>I'm currently studying Bootstrap Framework and other css frameworks</p>
-          <button class="btn btn-light border-primary"><a href="#" class="text-primary text-decoration-none">Download
-              CV</a></button>
+          <button class="btn btn-light border-primary"><a href="https://www.linkedin.com/resume-builder/urn:li:fs_memberResume:43294900/" class="text-primary text-decoration-none" target="_blank"><i
+                class="bi bi-briefcase-fill"></i> View My Resume</a></button>
         </div>
         <!-- education -->
         <div class="col-md-5 text-md-start px-4">
@@ -92,12 +92,13 @@
     </div>
   </section>
 
+  <!-- organisasi -->
   <section id="organization" class="bg-light">
     <div class="container-lg">
       <div class="text-center">
-        <h1 class="fw-bold">Organization</h1>
+        <h1 class="fw-bold"><i class="bi bi-people-fill"></i> Organization</h1>
       </div>
-      <div class="row g-4 justify-content-center align-items-start py-5">
+      <div class="row g-4 justify-content-center align-items-start py-3">
         <!-- glc -->
         <div class="col-md-4 text-md-start px-4">
           <h2 class="fw-bold py-2">Global Language Club</h2>
@@ -117,7 +118,7 @@
           <p>May 2021 - Apr 2022</p>
         </div>
 
-        <!-- hima -->
+        <!-- panitia -->
         <div class="col-md-4 text-md-start px-4">
           <h2 class="fw-bold py-2">Committee</h2>
           <h4>Head of PDD DIKLAT GLC 2020</h4>
@@ -136,9 +137,130 @@
     </div>
   </section>
 
+  <section id="projects">
+    <div class="container-lg">
+      <div class="text-center">
+        <h1 class="fw-bold">Projects</h1>
+      </div>
+      <div class="row g-4 justify-content-center align-items-center py-3">
 
+        <!-- BMI -->
+        <div class="col-8 col-md-4 px-4">
+          <div class="card" style="width: 18rem;">
+            <img src="/assets/bmi-calc.png" class="card-img-top" width="200" alt="kalkulator bmi">
+            <div class="card-body">
+              <h5 class="card-title">BMI Calculator</h5>
+              <p class="card-text">Calculator to calculate your ideal body mass index</p>
+              <a href="https://github.com/opickbintang19/kalkulator-bmi" class="btn btn-primary" target="_blank">Go
+                somewhere</a>
+            </div>
+          </div>
+        </div>
 
+        <!-- Bio Link Website -->
+        <div class="col-8 col-md-4 px-4">
+          <div class="card" style="width: 18rem;">
+            <img src="/assets/bio-link.png" class="card-img-top" width="200" alt="kalkulator bmi">
+            <div class="card-body">
+              <h5 class="card-title">Bio Link Website</h5>
+              <p class="card-text">Link to my other social media</p>
+              <a href="https://github.com/opickbintang19/biolink.github.io" class="btn btn-primary" target="_blank">Go
+                somewhere</a>
+            </div>
+          </div>
+        </div>
 
+        <!-- Day Until -->
+        <div class="col-8 col-md-4 px-4">
+          <div class="card" style="width: 18rem;">
+            <img src="/assets/day-until.png" class="card-img-top" alt="day until">
+            <div class="card-body">
+              <h5 class="card-title">Day Until</h5>
+              <p class="card-text">Countdown until 31 december 2022</p>
+              <a href="https://github.com/opickbintang19/day-until" class="btn btn-primary" target="_blank">Go
+                somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="bg-light">
+    <div class="container-lg">
+      <div class="text-center">
+        <h2>Get in touch</h2>
+        <p class="lead">You have a question? Fill out the form to contact me directly</p>
+      </div>
+
+      <div class="row justify-content-center my-5">
+        <div class="col-lg-6">
+          <form action="">
+            <!-- email -->
+            <label for="email" class="form-label">Email</label>
+            <div class="mb-4 input-group">
+              <span class="input-group-text">
+                <i class="bi bi-envelope-fill"></i>
+              </span>
+              <input type="email" class="form-control" id="email" placeholder="e.g husain@example.com">
+            </div>
+
+            <!-- nama -->
+            <label for="name" class="form-label">Name</label>
+            <div class="mb-4 input-group">
+              <span class="input-group-text">
+                <i class="bi bi-people-fill"></i>
+              </span>
+              <input type="name" class="form-control" id="name" placeholder="e.g Husain">
+            </div>
+
+            <div class="form-floating mb-4 mt-5">
+              <textarea id="query" class="form-control" style="height: 120px;" placeholder="your query.."></textarea>
+              <label for="query">Your query...</label>
+            </div>
+
+            <div class="mb-4 text-start">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <!-- Footer -->
+  <footer class="text-center text-lg-start bg-white text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with me on social networks:</span>
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div>
+        <a href="https://www.facebook.com/HusainT123" class="me-4 link-secondary"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com/doyan_alpucok" class="me-4 link-secondary"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/doyan.alpucok/" class="me-4 link-secondary"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/husain-taufiqqurrahman/" class="me-4 link-secondary"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/opickbintang19" class="me-4 link-secondary"><i class="fab fa-github"></i></a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+      © 2022 Copyright:
+      <a class="text-decoration-none fw-bold" href="#">Husain Taufiqqurrahman</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+  <script src="https://kit.fontawesome.com/af55283bce.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
     crossorigin="anonymous"></script>
